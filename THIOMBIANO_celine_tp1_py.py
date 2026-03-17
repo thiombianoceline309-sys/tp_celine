@@ -584,6 +584,5 @@ def update_dashboard(selected_zones): # selected_zones : liste des zones sélect
     )
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8050)
-
+    app.run(debug=True)
 
