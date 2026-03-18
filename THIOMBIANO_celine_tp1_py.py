@@ -40,11 +40,6 @@ df['CustomerID'] = df['CustomerID'].fillna(0).astype(int)
 # %%
 df['CustomerID'].count()
 
-# %%
-## Remplissage des valeurs manquantes de la colonne "Location" par "Unknown" (utile pour le dropdown)
-df["Location"] = df["Location"].fillna("Unknown")
-df["Location"].count()
-
 # %% [markdown]
 # ### Conversion en date
 
